@@ -1,0 +1,141 @@
+.gallery{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0c0c;
+    height: 100vh;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+.gallery-content{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.instagram-container{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    scrollbar-width: none;
+   
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    padding-left:60vw;
+}
+
+.images::-webkit-scrollbar{
+    display: none;
+}
+
+.arrow{
+    color: white;
+}
+
+.arrow{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #0c0c0c;
+    border-radius: 5px;
+
+
+}
+
+.arrow:hover{
+    color:goldenrod
+}
+
+.gallery-ig{
+    z-index: 0;
+    opacity: 100%;
+    color: white;
+    position: relative;
+    right: 50%;
+    cursor: pointer;
+}
+
+.gallery-ig:hover{
+    z-index: 1;
+}
+
+.gallery-img{
+    width: 30vw;
+    object-fit: cover;
+    aspect-ratio:1 /1;
+    z-index: 1;
+    scrollbar-width: none;
+}
+
+.gallery-img:hover{
+    opacity: 30%;
+    color: white;
+}
+
+.gallery-item{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.arrows{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: absolute;
+    z-index: 3;
+}
+
+@media screen and (max-width:1100px){
+    .gallery{
+        flex-direction: column;
+    }
+
+    .gallery-content{
+        width: 80vw;
+        padding-top: 1rem;
+    }
+
+    .instagram-container{
+        width: 80vw;
+        height: auto;
+        padding-top: 3rem;
+    }
+
+    .arrows{
+        width: 90vw;
+    }
+
+    .gallery-img{
+        width: 35vw;}
+    
+    .images{
+        padding-left: 110vw;
+    }
+}
+
+@media screen and (max-width:650px){
+  
+    .gallery-img{
+        width: 60vw;}
+    
+    .images{
+        padding-left: 250vw;
+    }
+}

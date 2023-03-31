@@ -1,0 +1,147 @@
+.app__navbar{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    background-color: #0c0c0c;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.app__navbar-logo img{
+    height: 50px;
+}
+
+.app__navbar-link{
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem
+}
+
+.app__navbar-link:hover{
+    color: grey
+}
+
+.app__navbar-links{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+
+
+ul{
+    margin: 0 !important;
+}
+
+.navbar-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.navbar-login a{
+    color:white;
+    text-decoration: none;
+    margin: 0 1rem
+}
+.navbar-login a:hover{
+    border-bottom: 1px solid goldenrod;
+    color:white
+}
+
+.navbar-login div{
+    width: 1px;
+    height: 30px;
+    background-color: grey;
+}
+
+.navbar-smallscreen{
+    display:none;
+    margin-right: 1rem;
+}
+
+.app__navbar-smallscreen_overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0c0c0c;
+    transition: 0.5s ease;
+    flex-direction: column;
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 2rem;
+}
+
+.app__navbar-smallscreen_overlay .overlay_close{
+    font-size: 27px;
+    color: goldenrod;
+    cursor: pointer;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+
+.app__navbar-smallscreen_overlay .overlay_close:hover{
+    font-size: 27px;
+    color: white
+}
+
+.app__navbar-smallscreen-links{
+    text-decoration: none;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    margin-top: 30px;
+}
+
+.app__navbar-smallscreen-links li{
+    margin: 2rem;
+}
+
+.app__navbar-smallscreen-links a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.app__navbar-smallscreen-links a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1150px){
+    .app__navbar-links{
+        display: none;
+    }
+
+    .navbar-smallscreen{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 448px){
+    .app__navbar-links{
+        display: none;
+    }
+
+    .navbar-smallscreen{
+        display: flex;
+    }
+
+    .app__navbar-logo img{
+        height: 35px;
+    }
+}
+
+

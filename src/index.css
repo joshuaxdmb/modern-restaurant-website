@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0c0c0c!important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.p__cormorant{
+  font-family: 'Cormorant Upright', serif;
+  font-weight: bold ;
+}
+
+.spoon_img{
+  padding:0;
+  width: 40px;
+}
+
+
+p{
+  margin-bottom: 0!important;
+
+}
+
+.long-paragraph{
+  color:#e8e8e8;
+}
+
+.custom-button{
+  background-color:#fcecbb!important;
+   color:#0c0c0c!important;
+    border-radius:0!important;
+   border-width:0!important;
+   font-family:  'Cormorant Upright', serif;
+
+}
+
+
+/* 
+.p__opensans{
+  font-family: 'Open Sans', sans-serif;
+} */

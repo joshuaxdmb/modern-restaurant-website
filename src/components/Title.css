@@ -1,0 +1,12 @@
+.menu-title h1{
+    color: goldenrod;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 20 !important;
+}
+
+.menu-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
