@@ -33,7 +33,7 @@ const Menu = () => {
       </div>
       </div>
       <div className='menu-image'>
-        <img src='/assets/menu.png' alt='menu-img'/>
+        <img src='assets/menu.png' alt='menu-img'/>
       </div>
       <div className='menu-content'>
       <div className='menu-title'>

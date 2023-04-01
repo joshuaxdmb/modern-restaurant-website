@@ -20,7 +20,7 @@ const Intro = () => {
   return (
     <div className='intro' id='intro'>
       <div className='video'>
-        <video src='/assets/meal.mp4'
+        <video src='assets/meal.mp4'
         ref={vidRef}
             type='video/mp4'
             loop

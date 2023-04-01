@@ -6,7 +6,7 @@ const Chef = () => {
   return (
     <div className="chef" id="chef">
       <div className="chef-image">
-        <img src="/assets/chef.png" alt="chef" />
+        <img src="assets/chef.png" alt="chef" />
       </div>
       <div className="chef-info">
         <div className='chef-info-content'>
@@ -14,7 +14,7 @@ const Chef = () => {
           <h1 className="heading mt-1">What We Believe In</h1>
           <div className="chef-content">
             <div className="chef-quote">
-              <img src="/assets/quote.png" alt="quote" />
+              <img src="assets/quote.png" alt="quote" />
               <p className="long-paragraph">
                 Some iconic phrases by Gordon Ramsay: This lamb is so undercooked, it’s following Mary to school!
                 I’ve never, ever, ever, ever, ever met someone I believe in as

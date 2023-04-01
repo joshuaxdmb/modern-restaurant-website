@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="brand">
-          <img src="/assets/name-logo-white.png" alt="name" />
+          <img src="assets/name-logo-white.png" alt="name" />
           <p style={{textAlign:'center', marginTop:1}} className='long-paragraph'>The best restaurant in the city.</p>
           <div className='icons'>
               <FiFacebook className='icon' color='white' size={30}/>

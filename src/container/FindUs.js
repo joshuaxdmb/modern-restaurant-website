@@ -23,7 +23,7 @@ const FindUs = () => {
         </div>
     </div>
     <div className='image-container'>
-        <img className='main-image' src='/assets/restaurant.png' alt='restaurant'/>
+        <img className='main-image' src='assets/restaurant.png' alt='restaurant'/>
     </div>
 
     </div>

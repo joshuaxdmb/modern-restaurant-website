@@ -16,7 +16,7 @@ const Header = () => {
             <Button href='#menu' className='custom-button mt-2'><p className='p__cormorant'>Explore Menu</p></Button>
         </div>
         <div className='app-wrapper_img'>
-            <img  src='/assets/welcome.jpeg' alt='welcome-img'/>
+            <img  src='assets/welcome.jpeg' alt='welcome-img'/>
         </div>
     </div>
   )

@@ -33,8 +33,8 @@ const Laurels = () => {
       </Container>
       </div>
       <div className="laurels-images">
-        <img className="second-image" src="/assets/r.png" alt="R" />
-        <img className="main-image" src="/assets/steak.png" alt="steak" />
+        <img className="second-image" src="assets/r.png" alt="R" />
+        <img className="main-image" src="assets/steak.png" alt="steak" />
       </div>
     </div>
   );
