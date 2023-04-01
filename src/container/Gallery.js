@@ -43,11 +43,11 @@ const Gallery = () => {
       </div>
       <div className="instagram-container">
         <div className="images" ref={scrollRef}>
-        <GalleryItem url='/assets/gallery/gallery01.png'/>
-          <GalleryItem url='/assets/gallery/gallery02.jpeg'/>
-          <GalleryItem url='/assets/gallery/gallery03.jpeg'/>
-          <GalleryItem url='/assets/gallery/gallery04.jpeg'/>
-          <GalleryItem url='/assets/gallery/gallery05.jpeg'/>
+        <GalleryItem url='assets/gallery/gallery01.png'/>
+          <GalleryItem url='assets/gallery/gallery02.jpeg'/>
+          <GalleryItem url='assets/gallery/gallery03.jpeg'/>
+          <GalleryItem url='assets/gallery/gallery04.jpeg'/>
+          <GalleryItem url='assets/gallery/gallery05.jpeg'/>
         </div>
         <div className="arrows">
           <BsArrowLeftShort
