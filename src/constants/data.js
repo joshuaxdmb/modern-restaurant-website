@@ -58,22 +58,22 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: 'assets/award02.png',
+    imgUrl: '/assets/award02.png',
     title: 'Toronto Top 10',
     subtitle: 'Awarded in 2022 for our excellent service.',
   },
   {
-    imgUrl: '../assets/award01.png',
+    imgUrl: '/assets/award01.png',
     title: 'Rising Star',
     subtitle: 'Awarded in 2021 for being the most popular new restaurant in the city',
   },
   {
-    imgUrl: './assets/award05.png',
+    imgUrl: '/assets/award05.png',
     title: 'AA Hospitality',
     subtitle: 'Awarded in 2022',
   },
   {
-    imgUrl: '/modern-restaurant-website/assets/award03.png',
+    imgUrl: '/assets/award03.png',
     title: 'Ontario Outstanding Chef',
     subtitle: 'Awarded thanks to our amazing chef, Gordon Ramsay',
   },
